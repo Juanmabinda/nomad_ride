@@ -12,10 +12,7 @@
 @import "pages/index";
 
 
-.card {
-  transform: scale(0.95);
-  transition: box-shadow 0.3s, transform
-}
+
 
 .card:hover{
   transform: scale(1);
@@ -44,6 +41,11 @@
   opacity: 1;
 }
 
+.banner .full-banner .titulo {
+  color: #0056b3;
+  font-size: 60px;
+  font-family: "Nunito", "Helvetica", "sans-serif";
+}
 
 .card:hover .titulo {
   transform: scale(1);
@@ -99,23 +101,22 @@
 }
 
 
-.navbar {
-  background-color: #c1c1c1;
-  padding: 10px;
-}
 
 .avatar {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
   transition: transform 0.3s;
+  background-color: white;
+  color: #c3dcde !important;
 }
 
 .avatar img {
   width: 100%;
   height: auto;
+  color: #c3dcde ;
 }
 
 .avatar:hover {
@@ -175,12 +176,13 @@
 
 
 .container {
-  background-color: #ffffff;
+background-color: white ;
 }
 
 .container h5 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #5e93c2
 }
 
 .container .row {
@@ -189,6 +191,8 @@
 
 .container .card {
   margin-top: 1rem;
+  border: 3px solid #dfe3e9
+
 }
 
 .container .text-center {
@@ -197,6 +201,7 @@
 
 .container .card-body {
   text-align: center;
+
 }
 
 .container .card-title {
@@ -236,7 +241,7 @@
 }
 
 #card-custom {
-  background-color: #c3dcde;
+  background-color: #ffffff;
 }
 
 
